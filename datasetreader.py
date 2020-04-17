@@ -10,4 +10,4 @@ def get_data():
 def get_pca_data():
     pca_data = pd.read_csv('./data/pca_data.csv')
 
-    return pca_data.values
+    return pca_data
